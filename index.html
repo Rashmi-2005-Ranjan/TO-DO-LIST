@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="shortcut icon" href="./images/list.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="main-heading">TODO APP</h1>
+    <div class="grid-container">
+        <input type="text" placeholder="Enter TODO Here" id="todo-input" required>
+        <input type="date" id="todo-date" required>
+        <button onclick="addTodo()" class="btn-todo">Add</button>
+
+    </div>
+    <div class="hint">
+        <h2>TODO LIST</h2>
+        <h2>DUE DATE</h2>
+        <h2>ACTION</h2>
+    </div>
+
+    <div class="todo-container" style="color: aqua; font-size: 30px; font-weight: bold;">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

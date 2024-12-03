@@ -1,0 +1,93 @@
+body{
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+.todo-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  margin-top: 30px;
+  column-gap: 280px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 280px;
+  row-gap: 10px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-input {
+  font-size: 15px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+#todo-date {
+  font-size: 15px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-todo {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+}
+.btn-delete {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+}
+.btn-delete:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: lightcoral;
+  color: black;
+}
+.btn-todo:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background: lightgreen;
+  color: black;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  FONT-SIZE: 50PX;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darkmagenta;
+}
+
+.hint{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 280px;
+    row-gap: 10px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: tomato;
+    text-decoration: underline;
+}
